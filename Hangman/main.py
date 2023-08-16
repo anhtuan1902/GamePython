@@ -29,7 +29,6 @@ class Hangman:
         print(logo)
         print("\nWelcome to Hangman Game! Here is blank: " + self.print_blank_word())
         
-        print(self.word)
         while self.live > 0:
             guess_letter = input("Guess a letter: ")
             
